@@ -6,6 +6,7 @@ Language features/builtins
 * what's the point of the @ and % sigils when you don't need to explicitly
   dereference array refs? if my $x = (0, 1); say $x[0] works, why use @x
   instead?
+* are Perl 6 threads better than Perl 5 threads?
 
 Meta:
 
