@@ -1,0 +1,13 @@
+Language features/builtins
+
+* what is &so?
+* how do I extract the eigenstates from a junction?
+* how do you take a reference to an array?
+* what's the point of the @ and % sigils when you don't need to explicitly
+  dereference array refs? if my $x = (0, 1); say $x[0] works, why use @x
+  instead?
+
+Meta:
+
+* when is Perl 6 ready? Is it ready now?
+* What's so great about Perl 6? Why should I learn it?
