@@ -5,8 +5,6 @@ Language features/builtins
   dereference array refs? if my $x = (0, 1); say $x[0] works, why use @x
   instead?
 * are Perl 6 threads better than Perl 5 threads?
-* if Str is immutable, how does s/// work? if Int is immutable, how does $i++
-  work?
 
 Meta:
 
@@ -17,3 +15,5 @@ ANSWERED:
 
 * what is &so?
 * how do I extract the eigenstates from a junction?
+* if Str is immutable, how does s/// work? if Int is immutable, how does $i++
+  work?

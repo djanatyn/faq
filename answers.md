@@ -32,3 +32,11 @@ If you want to do it anyway, you can abuse autothreading for that:
 
     say eigenstates(1|2|3).join(', ');
     # prints 1, 2, 3 or a permutation thereof
+
+
+## If Str is immutable, how does `s///` work? if Int is immutable, how does `$i++` work?
+
+In Perl 6, many basic types are immutable, but the variables holding them are
+not. The `s///` operator works on a variable, into which it puts a newly
+creates string object. Likewise `$i++` works on the `$i` variable, not
+just on the value in it.
