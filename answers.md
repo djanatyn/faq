@@ -1,5 +1,7 @@
 # Perl 6 FAQ
 
+Source to be found [on github](https://github.com/perl6/faq).
+
 ## What is `so`?
 
 `so` is loose precedence operator that coerces to `Bool`.
