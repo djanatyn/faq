@@ -96,7 +96,7 @@ routines that return lazy lists:
     my @values := gather while have_data() {
         # do some computations
         take some_data();
-        # do ore computations
+        # do more computations
     }
 
     # second method, use .map or similar method
