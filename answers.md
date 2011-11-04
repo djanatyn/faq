@@ -2,6 +2,7 @@
 
 Source to be found [on github](https://github.com/perl6/faq).
 
+<span id="so" />
 ## What is `so`?
 
 `so` is loose precedence operator that coerces to `Bool`.
@@ -16,6 +17,7 @@ Example usage:
 In this example, the result of the comparison (which is a `Junction`), is
 converted to Bool before being printed.
 
+<span id="eigenstate" />
 ## How can I extract the eigenstates from a `Junction`?
 
 If you want to extract the eigenstates from a junction, you are doing
@@ -34,6 +36,7 @@ If you want to do it anyway, you can abuse autothreading for that:
     # prints 1, 2, 3 or a permutation thereof
 
 
+<span id="immutable" />
 ## If Str is immutable, how does `s///` work? if Int is immutable, how does `$i++` work?
 
 In Perl 6, many basic types are immutable, but the variables holding them are
@@ -41,6 +44,7 @@ not. The `s///` operator works on a variable, into which it puts a newly
 creates string object. Likewise `$i++` works on the `$i` variable, not
 just on the value in it.
 
+<span id="ref" />
 ## What's up with array references and automatic derferencing? Do I still need
 the `@` sigil?
 
@@ -78,6 +82,7 @@ or by calling the `.item` method on an expression.
 `[...]` array literals do not flatten into lists.
 
 
+<span id="coroutine" />
 ## Does Perl 6 have coroutines? What about `yield`?
 
 Perl 6 has no `yield` statement like python does, but it does offer similar
