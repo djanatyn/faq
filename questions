@@ -2,10 +2,6 @@ Language features/builtins
 
 * are Perl 6 threads better than Perl 5 threads?
 
-Meta:
-
-* What's so great about Perl 6? Why should I learn it?
-
 ANSWERED:
 
 * what is &so?
@@ -15,4 +11,8 @@ ANSWERED:
 * array references and list/item context
 * does Perl 6 have coroutines?
 
+Meta:
+
 * when is Perl 6 ready? Is it ready now?
+* What's so great about Perl 6? Why should I learn it?
+

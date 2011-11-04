@@ -119,3 +119,38 @@ Please see the [feature comparison
 matrix](http://perl6.org/compilers/features) for an overview of implemented
 features.
 
+
+### Why should I learn Perl 6? What's so great about it?
+
+Perl 6 unifies many great ideas that aren't usually found in other programming
+languages. While several other languages offer some of these features, none of
+them offer all.
+
+Unlike most languages, it offers
+
+* cleaned up regular expressions
+* PEG like grammars for parsing
+* lazy lists
+* a powerful meta object system
+* junctions of values
+* easy access to higher-order functional features like partial application and currying
+* separate mechanism for subtyping (inheritance) and code reuse (role application)
+* optional type annotations
+* power run-time multi dispatch for both subroutines and methods based on
+  arity, types and additional code constraints
+* lexical imports
+
+It also offers
+
+* closures
+* anonymous types
+* roles and traits
+* named arguments
+* nested signatures
+* object unpacking in signatures
+* intuitive, nice syntax (unlike Lisp)
+* easy to understand, explicit scoping rules (unlike Python)
+* a strong meta object system that does not rely on eval (unlike Ruby)
+* expressive routine signatures (unlike Perl 5)
+* state variables
+* named regexes for easy reuse
