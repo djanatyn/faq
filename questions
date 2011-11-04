@@ -5,6 +5,7 @@ Language features/builtins
   dereference array refs? if my $x = (0, 1); say $x[0] works, why use @x
   instead?
 * are Perl 6 threads better than Perl 5 threads?
+* does Perl 6 have coroutines
 
 Meta:
 
