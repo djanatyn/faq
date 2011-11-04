@@ -76,3 +76,22 @@ on an expression, and item context (not flattening) with `$( ... )`
 or by calling the `.item` method on an expression.
 
 `[...]` array literals do not flatten into lists.
+
+
+## Does Perl 6 have coroutines? What about `yield`?
+
+Perl 6 has no `yield` statement like python does, but it does offer similar
+functionality through lazy lists. There are two popular ways to write
+routines that return lazy lists:
+
+    # first method, gather/take
+    my @values := gather while have_data() {
+        # do some computations
+        take some_data();
+        # do ore computations
+    }
+
+    # second method, use .map or similar method
+    # on a lazy list
+    my @squares := (1..*).map(-> $x { $x * $x });
+
