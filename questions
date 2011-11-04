@@ -4,7 +4,6 @@ Language features/builtins
 
 Meta:
 
-* when is Perl 6 ready? Is it ready now?
 * What's so great about Perl 6? Why should I learn it?
 
 ANSWERED:
@@ -15,3 +14,5 @@ ANSWERED:
   work?
 * array references and list/item context
 * does Perl 6 have coroutines?
+
+* when is Perl 6 ready? Is it ready now?

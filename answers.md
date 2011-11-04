@@ -1,9 +1,12 @@
 # Perl 6 FAQ
 
-Source to be found [on github](https://github.com/perl6/faq).
+Source can be found [on github](https://github.com/perl6/faq).
+
+<span id="language" />
+## Language Features
 
 <span id="so" />
-## What is `so`?
+### What is `so`?
 
 `so` is loose precedence operator that coerces to `Bool`.
 
@@ -18,7 +21,7 @@ In this example, the result of the comparison (which is a `Junction`), is
 converted to Bool before being printed.
 
 <span id="eigenstate" />
-## How can I extract the eigenstates from a `Junction`?
+### How can I extract the eigenstates from a `Junction`?
 
 If you want to extract the eigenstates from a junction, you are doing
 something wrong. Junctions are meant as matchers, not for doing algebra
@@ -37,7 +40,7 @@ If you want to do it anyway, you can abuse autothreading for that:
 
 
 <span id="immutable" />
-## If Str is immutable, how does `s///` work? if Int is immutable, how does `$i++` work?
+### If Str is immutable, how does `s///` work? if Int is immutable, how does `$i++` work?
 
 In Perl 6, many basic types are immutable, but the variables holding them are
 not. The `s///` operator works on a variable, into which it puts a newly
@@ -83,7 +86,7 @@ or by calling the `.item` method on an expression.
 
 
 <span id="coroutine" />
-## Does Perl 6 have coroutines? What about `yield`?
+### Does Perl 6 have coroutines? What about `yield`?
 
 Perl 6 has no `yield` statement like python does, but it does offer similar
 functionality through lazy lists. There are two popular ways to write
@@ -99,4 +102,20 @@ routines that return lazy lists:
     # second method, use .map or similar method
     # on a lazy list
     my @squares := (1..*).map(-> $x { $x * $x });
+
+
+<span id="meta" />
+## Meta Questions and Advocacy
+
+<span id="ready" />
+### When will Perl 6 be ready? Is it ready now?
+
+Readiness of programming languages and their compilers is not a binary
+decision. As they (both the language and the implementations) evolve, they
+grow steadily more usable. Depending on your demands on a programming
+language, Perl 6 and its compilers might or might not be ready for you.
+
+Please see the [feature comparison
+matrix](http://perl6.org/compilers/features) for an overview of implemented
+features.
 
