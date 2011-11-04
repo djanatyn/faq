@@ -1,11 +1,10 @@
 Language features/builtins
 
-* how do you take a reference to an array?
 * what's the point of the @ and % sigils when you don't need to explicitly
   dereference array refs? if my $x = (0, 1); say $x[0] works, why use @x
   instead?
 * are Perl 6 threads better than Perl 5 threads?
-* does Perl 6 have coroutines
+* does Perl 6 have coroutines?
 
 Meta:
 
@@ -18,3 +17,4 @@ ANSWERED:
 * how do I extract the eigenstates from a junction?
 * if Str is immutable, how does s/// work? if Int is immutable, how does $i++
   work?
+* array references and list/item context
