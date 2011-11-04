@@ -1,1 +1,8 @@
-Collection of Perl 6 FAQs, and a few answers.
+Collection of Perl 6 FAQs, and a few answers. Source of http://faq.perl6.org/.
+
+To generate the web page(s), run
+
+    perl generate-web.pl path/to/output/directory
+
+Requires Perl 5, Text::Markdown and HTML::Template::Compiled.
+
