@@ -129,7 +129,7 @@ them offer all.
 Unlike most languages, it offers
 
 * cleaned up regular expressions
-* PEG like grammars for parsing
+* [PEG](http://en.wikipedia.org/wiki/Parsing_expression_grammar) like grammars for parsing
 * lazy lists
 * a powerful meta object system
 * junctions of values
