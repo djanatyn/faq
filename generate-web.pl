@@ -20,7 +20,7 @@ my $contents = do { local $/; <$fh> };
 close $fh;
 
 $t->param(body          => scalar(markdown($contents)));
-$t->param(last_updated  => scalar(localtime +(stat 'answers.md')[9]));
+$t->param(last_updated  => scalar(gmtime +(stat 'answers.md')[9]));
 
 my $fn = "$dest_dir/index.html";
 open my $out, '>:encoding(UTF-8)', $fn
